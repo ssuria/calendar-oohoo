@@ -1,0 +1,158 @@
+/**
+ * *************************************************************************
+ * *                  OOHOO Calendar Course format                        **
+ * *************************************************************************
+ * @package     format                                                    **
+ * @subpackage  calendar                                                  **
+ * @name        calendar                                                  **
+ * @copyright   oohoo.biz                                                 **
+ * @link        http://oohoo.biz                                          **
+ * @author      Nicolas Bretin                                            **
+ * @license     http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later  **
+ * *************************************************************************
+ * ************************************************************************ */
+
+.course-content ul.days {margin:0;}
+.course-content ul.days li.section {list-style: none;margin:5px 0 0 0;padding:0;}
+.course-content ul.days li.section .content {margin:0 40px;}
+.course-content ul.days li.section .left {width:40px;float:left;text-align:center;}
+.course-content ul.days li.section .right {width:40px;float:right;text-align:center;}
+.jumpmenu {text-align:center;}
+
+
+.course-content table.days
+{
+    width: 100%;
+}
+
+.course-content table.days tbody tr
+{
+
+}
+
+.course-content table.days tbody tr.firstweek
+{
+    border-top: 2px solid #AAA;
+}
+
+.course-content table.days tbody th
+{
+    border: 1px solid #AAA;
+    background: #DDD;
+    padding: 5px;
+    text-align : center;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+
+.course-content table.days tbody td
+{
+    border: 1px solid #AAA;
+    vertical-align:text-top;
+    padding:5px;
+}
+
+.course-content table.days tbody td:hover
+{
+    background-color: #e3e3fe;
+}
+
+.course-content table.days tbody td.current:hover
+{
+    background-color: #fff78c;
+}
+
+.course-content table.days tbody td.weekday-0, .course-content table.days tbody td.weekday-6
+{
+    background-color:#EEE;
+}
+
+.course-content table.days tbody td.weekday-0:hover, .course-content table.days tbody td.weekday-6:hover
+{
+    background-color:#c9cfdb;
+}
+
+.course-content table.days td ul.sectionul, .course-content table.days td ul.sectionul li.section
+{
+    padding:0;
+    margin:0;
+    border:0;
+    list-style: none;
+}
+
+.course-content table.days tbody h3
+{
+    margin-top:0;
+    margin-bottom:5px;
+    font-size: 0.9em;
+}
+
+.course-content table.days tbody .summary
+{
+    float:right;
+    margin-top:-25px;
+}
+
+.course-content table.days tbody ul.section
+{
+    margin:0 0 5px 10px;
+    font-size: 0.85em;
+}
+
+.course-content table.days tbody .right.side
+{
+    float:right;
+}
+
+.course-content table.days tbody .commands
+{
+    display:block;
+    margin-left:10px;
+}
+
+.course-content .calendar_btns_left
+{
+    
+}
+
+.course-content .calendar_btns_right
+{
+    text-align:right;
+}
+
+/*editing mode*/
+.editing .course-content table.days .select.menujump
+{
+    width:70%;
+}
+
+.editing .course-content table.days .section_add_menus .horizontal
+{
+
+}
+.editing .course-content table.days .urlselect
+{
+    display:table-row;
+    width: 120px;
+}
+
+.editing .course-content table.days .section_add_menus
+{
+    text-align: center;
+}
+
+.editing .course-content table.days .helplink .iconhelp
+{
+    margin: 0;
+}
+
+
+.editing .course-content table.days ul.section li.activity div div.activityinstance {
+    padding-left: 22px;
+    padding-right: 10px;
+}
+
+.editing .course-content table.days ul.section .filler {
+    display: none;
+}
