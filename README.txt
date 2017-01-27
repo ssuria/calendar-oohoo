@@ -14,7 +14,7 @@ Prerequisites
 --------------------------------------------------------------------------------
 
 None
-Note: This new version only works for 2.4 and +
+Note: This new version only works from 2.4+ until 3.1
 
 --------------------------------------------------------------------------------
 Installation
